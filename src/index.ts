@@ -11,7 +11,6 @@ app.listen(port, () => {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("public"));
 
 //dummy Route
 app.use("/dummy", dummyRouter);
