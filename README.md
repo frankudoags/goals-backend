@@ -1,4 +1,4 @@
-## Typescript Starter-Kit for Nodeq and Express projects
+## Typescript Starter-Kit for NodeJS and Express projects
 This is a starter-kit for Node.js and Express projects written in Typescript. It includes a basic setup for a Node.js server with Express and Typescript.
 It follows the MVC pattern and uses the following technologies:
 - Typescript
