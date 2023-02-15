@@ -99,6 +99,31 @@
 
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "src/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "coverage",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.spec.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.stories.ts",
+    "src/**/*.stories.tsx",
+    "src/**/*.d.ts",
+    "src/**/*.test.js",
+    "src/**/*.test.jsx",
+    "src/**/*.spec.js",
+    "src/**/*.spec.jsx",
+    "src/**/*.stories.js",
+    "src/**/*.stories.jsx",
+    "src/**/*.d.js",
+    "src/**/*.d.jsx"
+  ]
 }

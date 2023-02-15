@@ -15,6 +15,5 @@ It follows the MVC pattern and uses the following technologies:
 
 
 ## Usage
-1. Run `npx tsc` to build the project
-2. Run `nodemon .build/index` to start the server in development mode
+1. Run `npm start` to build the project
 
